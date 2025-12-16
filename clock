@@ -12,6 +12,9 @@
     <!-- Mittelpunkt -->
     <circle cx="150" cy="150" r="4" fill="black" />
 
+    <!-- Mittelpunkt Sekundenzeiger -->
+    <circle cx="150" cy="150" r="2" fill="red" />
+
     <!-- Uhrzeiger -->
     <g id="hands" transform="rotate(0 150 150)">
         <!-- Stundenzeiger -->
