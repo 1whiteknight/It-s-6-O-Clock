@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="300mm"
+    height="300mm"
+    viewBox="-10 -10 320 320">
+
+    <!-- Außenkreis -->
+    <circle
+        cx="150"
+        cy="150"
+        r="150"
+        fill="none"
+        stroke="black"
+        stroke-width="3" />
+
+    <!-- Mittelpunkt -->
+    <circle
+        cx="150"
+        cy="150"
+        r="4"
+        fill="black" />
+
+    <!-- Text wie Uhrzahlen -->
+    <g
+        font-family="Arial"
+        font-size="2mm"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        fill="black">
+
+        <!-- 12 Uhr -->
+        <text x="150" y="25">1 (Cos0 + Cos0 + Cos0) = 6</text>
+
+        <!-- 1 Uhr -->
+        <text x="210" y="45">(1 + 1 + 1)! = 6</text>
+
+        <!-- 2 Uhr -->
+        <text x="255" y="90">2 + 2 +2 = 6</text>
+
+        <!-- 3 Uhr -->
+        <text x="270" y="150">3 * 3 - 3 = 6</text>
+
+        <!-- 4 Uhr -->
+        <text x="255" y="210">√4 + √4 + √4 = 6</text>
+
+        <!-- 5 Uhr -->
+        <text x="210" y="255">5 / 5 + 5 = 6</text>
+
+        <!-- 6 Uhr -->
+        <text x="150" y="275">6 - 6 + 6 = 6</text>
+
+        <!-- 7 Uhr -->
+        <text x="90" y="255">7 - 7 / 7 = 6</text>
+
+        <!-- 8 Uhr -->
+        <text x="45" y="210">8 - √(√(8 + 8)) = 6</text>
+
+        <!-- 9 Uhr -->
+        <text x="30" y="150">√9 *√9 -√9 = 6</text>
+
+        <!-- 10 Uhr -->
+        <text x="50" y="90">log(10 * 10 * 10)! =6</text>
+
+        <!-- 11 Uhr -->
+        <text x="90" y="45">!3 = 1 * 2 * 3 = 6</text>
+
+    </g>
+</svg>
