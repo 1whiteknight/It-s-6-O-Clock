@@ -12,9 +12,6 @@
     <!-- Mittelpunkt -->
     <circle cx="150" cy="150" r="4" fill="black" />
 
-    <!-- Mittelpunkt Sekundenzeiger -->
-    <circle cx="150" cy="150" r="2" fill="red" />
-
     <!-- Uhrzeiger -->
     <g id="hands" transform="rotate(0 150 150)">
         <!-- Stundenzeiger -->
@@ -41,6 +38,9 @@
             stroke-width="1.5"
             stroke-linecap="round" />
     </g>
+
+         <!-- Mittelpunkt Sekundenzeiger -->
+        <circle cx="150" cy="150" r="2" fill="red" />
 
     <!-- Text wie Uhrzahlen -->
     <g font-family="Arial" font-size="2mm"
